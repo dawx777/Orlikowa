@@ -1,0 +1,276 @@
+body {
+	
+   margin: 30px 300px 72px;
+   padding: 0;
+   height:555px;
+   background-color: #5b6467;
+   background-image: linear-gradient(315deg, #5b6467 0%, #8b939a 74%);
+  
+	box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+	0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+	0 12.5px 10px rgba(0, 0, 0, 0.06),
+	0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+	0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+	0 100px 80px rgba(0, 0, 0, 0.12);
+
+}
+#container {
+
+	background: #333333;
+
+}
+
+#baner
+{
+	background-color:white;
+	text-align:center;
+	height:155px;
+	width:100%;
+	float:left;
+	
+}
+
+.menu
+{
+	height:55px;
+	width:100%;
+	background-color:#333333;
+	color:white;
+	text-align:center;
+	font-size:150%;
+	text-decoration: none;
+	float:left;
+
+}
+.button1
+{	
+	background-color: #919191;
+	color: black;
+	border: 2px solid #ffbb00; /* yellow */
+	margin-top:7px;
+	margin-left:10px;
+	border-radius: 8px;
+	float:left;
+	
+	text-decoration: none;
+	
+}
+.button {
+font-family: 'Bebas Neue', cursive;
+font-size:18px;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #ffbb00;
+  border: none;
+  color: #333333;
+  text-align: center;
+
+  padding: 5px;
+  width: 128px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 1px;
+  margin-top:8px;
+
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#blok_glowny
+{
+	width:100%;
+	float:left;
+	height:290px;
+	
+	background-color:white;
+}
+#stopka
+{
+	
+	width:100%;
+	background-color:#333333;
+	color:white;
+	text-align:center;
+	font-size:13px;
+	float:left;
+	height:55px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing:1px;
+
+}
+#text1
+{
+	font-size: 60px;
+	color:white;
+
+
+}
+#text2
+{
+	
+	font-size: 20px;
+	color:white;
+	font-family: 'Bebas Neue', cursive;
+}
+
+#panel {
+
+font-family: 'Roboto', sans-serif;
+border-radius: 5px;
+margin-top:20px;
+  margin-left: auto;
+  margin-right: auto;
+width: 400px; 
+/*margin: 0 auto; */
+padding: 15px 0 0;
+background: #333333;
+border: 3px solid ffbb00;
+
+letter-spacing: 0px;
+-webkit-box-shadow: 0 0 2px silver; 
+-moz-box-shadow: 0 0 2px silver; 
+box-shadow: 0 0 2px silver;
+}
+
+label {
+display: block;
+width: 260px;
+padding: 10px 10px;
+color: white;
+font-size: 13px;
+text-shadow: 0 0 1px silver;
+}
+form {
+margin: 0;
+}
+
+#username, #password ,#email{
+display: block;
+width: 360px; 
+margin: 0 auto;
+padding: 10px 5px;
+border: 1px solid silver;
+outline: 5px solid #ebebeb;
+font-size: 18px;
+
+}
+#username:focus, #password:focus , #email:focus{
+outline: 5px solid #ffbb00;
+border-radius: 5px;
+
+}
+
+#lower {
+background: #333333;
+width: 360px;
+padding: 5px 20px;
+margin-top: 20px;
+border-radius: 5px;
+}
+
+
+
+.check {
+display: inline;
+float: none;
+font-size: 11px;
+padding: 5px;
+}
+input[type="submit"] {
+width: 70px;
+padding: 5px 13px;
+border: 1px solid #005f85;
+color: white;
+text-shadow: 0 0 1px black;
+background: #98c9dc;
+position: relative;
+left: 180px;
+}
+
+.check {
+display: inline;
+float: none;
+font-size: 11px;
+padding: 5px;
+
+}
+input[type="submit"] {
+width: 70px;
+padding: 5px 13px;
+  letter-spacing:0.8px;
+
+text-shadow: 0 0 1px black;
+
+	position: relative;
+	left: 160px;
+	font-family: 'Bebas Neue', cursive;
+	font-size:16px;
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #ffbb00;
+	border: none;
+	color: #333333;
+	text-align: center;
+	padding: 8px;
+	width: 90px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 0px;
+	margin-top:-3px;
+	
+	margin-bottom:5px;
+}
+
+
+
+A 
+{text-decoration: none;} 
+
+
+a
+{
+	color:white;
+}
+.error{
+	
+	font-size:12px;
+	color:red;
+	padding-top:5px;
+	padding-left: 7px;
+	width:300px;
+}
+.wnetrznosci{
+    margin-left:30px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+@media screen and (max-width: 900px){
+
+    body{
+      width:700px;
+    }
+  
+  
+  }

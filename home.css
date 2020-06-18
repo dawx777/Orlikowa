@@ -1,0 +1,264 @@
+body {
+	
+    margin: 30px 300px;
+    padding: 0;
+    height:575px;
+    background-image: url('1.jpg');
+    outline: 0px solid #ffbb00;
+    
+     box-shadow: 0 0 0 3pt darkblue;
+     
+     
+       
+   
+  
+	box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+	0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+	0 12.5px 10px rgba(0, 0, 0, 0.06),
+	0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+	0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+	0 100px 80px rgba(0, 0, 0, 0.12);
+ 
+ }
+ #container {
+ 
+     background: blue;
+    height:auto;
+ }
+ 
+ #baner
+ {
+     background-color:white;
+     text-align:center;
+     height:155px;
+     width:100%;
+     float:left;
+     
+ }
+ 
+ .menu
+ {
+     height:75px;
+     width:100%;
+     background-color:skyblue;
+     color:white;
+     text-align:center;
+     font-size:150%;
+     text-decoration: none;
+     float:left;
+ 
+ }
+ .button1
+ {	
+     background-color: #919191;
+     color: black;
+     border: 2px solid blue; /* yellow */
+     margin-top:7px;
+     margin-left:10px;
+     border-radius: 8px;
+     float:left;
+     
+     text-decoration: none;
+     
+ }
+ .button {
+ font-family: 'Bebas Neue', cursive;
+ font-size:18px;
+   display: inline-block;
+   border-radius: 5px;
+   background-color: mediumblue;
+   border: none;
+   color: white;
+   text-align: center;
+ 
+   padding: 5px;
+   width: 128px;
+   transition: all 0.5s;
+   cursor: pointer;
+   margin: 1px;
+   margin-top:8px;
+ 
+ }
+ 
+ .button span {
+   cursor: pointer;
+   display: inline-block;
+   position: relative;
+   transition: 0.5s;
+ }
+ 
+ .button span:after {
+   content: '\00bb';
+   position: absolute;
+   opacity: 0;
+   top: 0;
+   right: -20px;
+   transition: 0.5s;
+ }
+ 
+ .button:hover span {
+   padding-right: 25px;
+ }
+ 
+ .button:hover span:after {
+   opacity: 1;
+   right: 0;
+ }
+ #blok_glowny
+ {
+     width:100%;
+     float:left;
+     height:290px;
+     
+     background-color:white;
+ }
+ #stopka
+ {
+     
+     width:100%;
+     background-color:skyblue;
+     color:white;
+     text-align:center;
+     font-size:15px;
+     float:left;
+     height:55px;
+         font-family: 'Bebas Neue';
+         letter-spacing:1px;
+     
+ }
+ #text1
+ {
+     font-size: 60px;
+     color:white;
+ 
+ 
+ }
+ #text2
+ {
+     
+     font-size: 20px;
+     color:white;
+     font-family: 'Bebas Neue', cursive;
+ }
+
+ .error{
+     
+     font-size:12px;
+     color:red;
+     padding-top:5px;
+     padding-left: 7px;
+     width:300px;
+ }
+ 
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  #wnetrznosci{
+    margin-left:30px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.podglad{
+   
+    font-size:18px;
+   display: inline-block;
+   border-radius: 5px;
+   background-color: #ccc;
+   border: none;
+   color: #333333;
+   text-align: center;
+ 
+   padding: 5px;
+   width: 140px;
+   transition: all 0.5s;
+   cursor: pointer;
+   margin: 1px;
+
+}
+.podglad:hover span {
+    background-color: #ccc;
+  }
+  .podglad span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .podglad span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .podglad:hover span {
+    padding-right: 25px;
+  }
+  
+  .podglad:hover span:after {
+    opacity: 1;
+    right: 0;
+  } 
